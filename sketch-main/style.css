@@ -1,0 +1,47 @@
+:root {
+  --grid-cols: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f4ebe8;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols), auto);
+  height: 70vh;
+  width: 70vh;
+  border: 4px solid black;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.cell {
+  border: 1px solid black;
+}
+
+#settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+button {
+  background-color: #d6dbdf57;
+  padding: 15px 32px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6dbdf;
+}
