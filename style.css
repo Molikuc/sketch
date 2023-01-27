@@ -1,3 +1,7 @@
+:root {
+  --grid-cols: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +13,10 @@
   height: 70vh;
   width: 70vh;
   border: 4px solid black;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
   margin: auto;
+  margin-top: 50px;
 }
 
 .cell {
@@ -29,12 +36,11 @@ button {
   text-decoration: none;
   border: 1px solid black;
   font-size: 16px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 3px;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: #d6dbdf;
-}
-
-:root {
-  --grid-cols: 1;
 }
